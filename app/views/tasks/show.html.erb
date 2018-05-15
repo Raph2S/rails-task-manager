@@ -1,0 +1,11 @@
+<h1>Task Manager</h1>
+<h2>Tasks Details</h2>
+
+<div container>
+<h2><%= @task.title %></h2>
+<p><%= @task.details %></p>
+ <p><%= link_to "Back to Index", tasks_path %></p>
+ <p><%= link_to "Edit task", edit_task_path(@task) %></p>
+
+</div>
+
